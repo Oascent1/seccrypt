@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt File/Folder | SecureCrypt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #a6b3c6 100%);
+            min-height: 100vh;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .container-fluid {
+            padding: 0 15px;
+            max-width: 100%;
+        }
+
+        .card {
+            border-radius: 15px;
+            border: 1.8px solid black;
+            background-color: #e9ecef;
+            box-shadow: 4px 4px black;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        
+        .card-header {
+            background: linear-gradient(to right, #4361ee, #3f37c9);
+            color: #e9ecef;
+            border-radius: 15px 15px 0 0 !important;
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: smaller;
+            text-align: left;
+            padding-top: 15px;
+            word-wrap: break-word;
+        }
+        
+        .download-btn {
+            background: linear-gradient(to right, #4361ee, #3f37c9);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            color: white;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #4361ee;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .img-container {
+            margin: 5px;
+            text-align: center;
+        }
+        
+        .img-container img {
+            border: 3px groove #4361ee;
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .note-box {
+            background-color: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .warning-box {
+            background-color: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .instructions {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .instructions ol {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 10px;
+        }
+        
+        .guide-section {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .row.justify-content-center {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+        .tab-content img {
+            border: 2px solid #4361ee;
+            border-radius: 8px;
+            margin-top: 10px;
+            max-width: 100%;
+        }
+        
+        .nav-tabs .nav-link {
+            color: #3f37c9;
+            font-weight: 500;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: #fff;
+            background: linear-gradient(to right, #4361ee, #3f37c9);
+            border-color: #4361ee;
+        }
+         .download-btn {
+            background: linear-gradient(to right, #4361ee, #3f37c9);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            color: white;
+        }
+        
+        
+    </style>    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h2>Secure Crypt File Encryption Tool</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <span class="fw-bold" style="color: red">Files Never Leave Your PC<br>Nothing Is Stored On Our Servers</span>
+                        </div>
+                        
+                       
+                       
+
+                        <div class="text-center mb-4">
+                            <p class="fw-semibold">
+                                Secure Crypt is an encryption tool that allows you to encrypt and decrypt files and folders directly in your browser.
+                                It's portable, meaning no installation required.
+                            </p>
+                            <div style="color:#4361ee">
+                            <p class="fw-bold">Here's how it works:</p>
+                        </div>
+
+                        <div class="guide-section">
+                            <h4><span class="step-number">1</span>Once you launch your SecureCrypt.exe, SecureCrypt will start a WSGI server that runs completely in your computer. This server will immediately bring up http://127.0.0.1:5000/ which will bring you to an activation page.</h4>
+                            <div class="img-container">
+                                <img src="static/firs.png" alt="SecureCrypt server starting" class="img-fluid">
+                            </div>
+
+                            <h4>
+    <span class="step-number">2</span> 
+    <p style="color:gold; text-align: center; font-weight: 600; font-size: medium; border: 1px solid gold; border-radius: 5px; padding: 3px 6px; display: inline-block; background: rgba(255, 215, 0, 0.1); margin-bottom:0px">Premium Tier:</p>
+    Enter your name and the license key you received after purchase. After that, click activate. Once you click activate, your credentials are stored in a securecrypt.license file with your .exe. Keep them stored together.
+</h4>
+<div class="img-container">
+    <img src="static/newey.png" alt="SecureCrypt web interface" class="img-fluid">
+</div>
+
+                            
+                            <h4><span class="step-number">3</span>This page will pop up immediately after you activate your SecureCrypt .exe. All the files you encrypt and decrypt will be done directly in your browser and will not leave your computer. We're going to head back to the desktop so we can use an example document for encryption.</h4>
+                            <div class="img-container">
+                                <img src="static/sec.png" alt="SecureCrypt web interface" class="img-fluid">
+                            </div>
+                           
+                            <h4><span class="step-number">4</span>This is my example.docx file we will be encrypting and decrypting. We're going to head back to our webpage and click the 'Encrypt a File' button seen above.</h4>
+                            <div class="img-container">
+                                <img src="static/ps.png" alt="Example document" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">5</span>We're going to press 'Click to browse files' to bring up our local files. I'm going to click my example.docx file to encrypt.</h4>
+                            <div class="img-container">
+                                <img src="static/tree.png" alt="File selection dialog" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">6</span>After selecting a file, we're going to create a strong password. it's important to remember this password, as your files <em style="color:red">cannot</em> be decrypted without this password.</h4>
+                            <div class="img-container">
+                                <img src="static/for.png" alt="Password creation" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">7</span>Once you've made a strong password, click 'Encrypt & Download'. Instructions for how to edit your encrypted file name are under the 'Encrypt & Download ' button. It's important you read those instructions if you plan to edit the name of your file.</h4>
+                            <div class="img-container">
+                                <img src="static/fi5.png" alt="Encryption process" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">8</span>Here we have our new encrypted file with the .safe extension. We're going to open it to show what will be seen if someone tried to access it.</h4>
+                            <div class="img-container">
+                                <img src="static/sixx.png" alt="Encrypted file with .safe extension" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">9</span>As you can see, our file has been completely scrambled with over 11,000 random characters.</h4>
+                            <div class="img-container">
+                                <img src="static/sevv.png" alt="Encrypted file content" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">10</span>Next, we're going to click the 'Decrypt a File' button, as seen on the second picture, and upload our encrypted file. We're going to type in our password and click the 'Decrypt & Download' button.</h4>
+                            <div class="img-container">
+                                <img src="static/eig.png" alt="Decryption process" class="img-fluid">
+                            </div>
+                            
+                            <h4><span class="step-number">11</span>And just like that, we have decrypted our file. Let's open it up to see if it worked.</h4>
+                            <div class="img-container">
+                                <img src="static/nin.png" alt="Decrypted file" class="img-fluid">
+                            </div>
+                            
+                           <div class="text-center">
+                             <h4>
+                            <span class="step-number">12</span>Our decrypted file.</h4>
+                            <div class="img-container">
+                                <img src="static/ten.png" alt="Download completed" class="img-fluid">
+                            </div>
+                            <br>
+                            
+                            <div style="border: 3px dashed #3f37c9; border-radius:20px; padding: 15px;">
+                                <a href="https://github.com/Oascent1/seccrypt/raw/main/SecureCrypt.exe" download class="download-btn">
+                                    <i class="fas fa-download me-2"></i>Download SecureCrypt.exe
+                                </a>
+                                <p class="mt-2 small">Version 1.0 | 2.8 MB | Windows 10/11</p>
+                            </div> 
+                            </div>
+                            </div>
+                            
+                          
+
+                             <div class="instructions" style="font-size:small; text-align: left">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <strong>Windows Security Notice:</strong> Windows Defender may block you from opening the .exe because the publisher is not recognized. This is to protect your computer.
+                        </div>
+                         
+                         <div class="instructions" style="text-align: left; font-size: small">
+                            <i class="fas fa-info-circle me-2"></i><strong> If Windows Defender blocks .exe:</strong>
+                            <ol>
+                                <li>Right-click on the file and select "Properties"</li>
+                                <li>You will see an "Unblock" checkbox in the General tab, check it and click "Apply"</li>
+                                <li>When you run the file, if Windows shows a warning, click "More info" then "Run anyway"</li>
+                            </ol>
+                        </div>
+
+                        <div class="text-center">
+                             <h4 style="text-align:center">
+                            Unblock file.</h4><br>
+                            <div class="img-container">
+                                <img src="static/last.png" alt="Download completed" class="img-fluid">
+                            </div>
+                            
+                        
+                        
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple confirmation for download
+        document.querySelector('.download-btn').addEventListener('click', function() {
+            console.log('Download initiated: SecureCrypt.exe');
+            // You could add analytics tracking here
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
