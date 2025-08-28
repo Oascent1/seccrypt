@@ -11,10 +11,7 @@ Once you launch your SecureCrypt.exe, SecureCrypt will start a WSGI server that 
 <img src="static/firs.png" alt="Alt Text" width="600"/>
 </div>
 <br>
-<div align="center">
-<img src="static/1.png" alt="Alt Text" width="600"/>
-</div>
-<br>
+This page will pop up immediately after you activate your SecureCrypt .exe. All the files you encrypt and decrypt will be done directly in your browser and will not leave your computer. We're going to head back to the desktop so we can use an example document for encryption.
 <div align="center">
 <img src="static/sec.png" alt="Alt Text" width="600"/>
 </div>
