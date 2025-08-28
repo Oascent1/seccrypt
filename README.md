@@ -1,8 +1,8 @@
 # seccrypt
 
-<div style="text-align: center">
+<p align="center">
 This is my encryption tool that encrypts and decrypts files directly in your browser. 
-No files leave your computer.</div>
+No files leave your computer.</p>
 
 <div align="center">
 <img src="static/tree.png" alt="Alt Text" width="600"/>
