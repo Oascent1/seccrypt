@@ -78,5 +78,5 @@ Our decrypted file.
 ###### You will see an "Unblock" checkbox in the General tab, check it and click "Apply"
 ###### When you run the file, if Windows shows a warning, click "More info" then "Run anyway"
 <div align="center">
-<img src="static/last.png" alt="Alt Text" width="600"/>
+<img src="static/run.png" alt="Alt Text" width="600"/>
 </div>
