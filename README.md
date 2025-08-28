@@ -1,5 +1,8 @@
 # SecureCrypt
 
+### No files leave your computer 
+
+
 <p align="center">
 SecureCrypt is a user-friendly, powerful desktop application designed for clientside file and folder encryption. Built with a commitment to privacy and
 accessibility, it empowers everyday users to protect their sensitive digital
