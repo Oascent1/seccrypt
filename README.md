@@ -1,8 +1,11 @@
-# seccrypt
+# SecureCrypt
 
 <p align="center">
-This is my encryption tool that encrypts and decrypts files directly in your browser. 
-No files leave your computer.</p>
+Secure Crypt my encryption tool that encrypts and decrypts files directly in your browser. 
+No files leave your computer. Visit [my github site](https://oascent1.github.io/seccrypt/) to see how to use it, and you can download it directly
+from there, or here.</p>
+
+<p alight="center">The whitepaper for Secure Crypt is also available.</p>
 
 <div align="center">
 <img src="static/tree.png" alt="Alt Text" width="600"/>
