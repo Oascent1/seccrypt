@@ -13,5 +13,5 @@ No files leave your computer.
 <img src="static/eig.png" alt="Alt Text" width="600"/>
 </div>
 <div align="center">
-<img src="static/nine.png" alt="Alt Text" width="600"/>
+<img src="static/nin.png" alt="Alt Text" width="600"/>
 </div>
