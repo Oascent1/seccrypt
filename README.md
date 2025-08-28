@@ -8,7 +8,7 @@ from there, or here.</p>
 <p align="center">The whitepaper for Secure Crypt is also available.</p>
 
 <div align="center">
-<img src="static/tree.png" alt="Alt Text" width="600" border="2px solid black"/>
+<img src="static/tree.png" alt="Alt Text" width="600" border="2px solid red"/>
 </div>
 <br>
 <div align="center">
