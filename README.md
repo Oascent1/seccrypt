@@ -2,7 +2,7 @@
 
 <p align="center">
 Secure Crypt my encryption tool that encrypts and decrypts files directly in your browser. 
-No files leave your computer. Visit [my github site](https://oascent1.github.io/seccrypt/) to see how to use it, and you can download it directly
+No files leave your computer. Visit (https://oascent1.github.io/seccrypt/) to see how to use it, and you can download it directly
 from there, or here.</p>
 
 <p alight="center">The whitepaper for Secure Crypt is also available.</p>
