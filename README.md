@@ -5,10 +5,10 @@ Secure Crypt my encryption tool that encrypts and decrypts files directly in you
 No files leave your computer. Visit (https://oascent1.github.io/seccrypt/) to see how to use it, and you can download it directly
 from there, or here.</p>
 
-<p alight="center">The whitepaper for Secure Crypt is also available.</p>
+<p align="center">The whitepaper for Secure Crypt is also available.</p>
 
 <div align="center">
-<img src="static/tree.png" alt="Alt Text" width="600"/>
+<img src="static/tree.png" alt="Alt Text" width="600" border="2px solid black"/>
 </div>
 <br>
 <div align="center">
