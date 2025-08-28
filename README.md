@@ -23,7 +23,7 @@ This is my example.docx file we will be encrypting and decrypting. We're going t
 </div>
 <br>
 
-We're going to press 'Click to browse files' to bring up our local files. I'm going to click my example.docx file to encryp
+We're going to press 'Click to browse files' to bring up our local files. I'm going to click my example.docx file to encrypt.
 <div align="center">
 <img src="static/tree.png" alt="Alt Text" width="600"/>
 </div>
