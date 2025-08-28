@@ -8,17 +8,47 @@ from there, or here.</p>
 <p align="center">The whitepaper for Secure Crypt is also available.</p>
 
 <div align="center">
-<img src="static/tree.png" alt="Alt Text" width="600"/>
+<img src="static/firs.png" alt="Alt Text" width="600"/>
 </div>
 <br>
+<div align="center">
+<img src="static/1.png" alt="Alt Text" width="600"/>
+</div>
+<br>
+<div align="center">
+<img src="static/sec.png" alt="Alt Text" width="600"/>
+</div>
+<br>
+<div align="center">
+<img src="static/ps.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/tree.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/for.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/fi5.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/six.png" alt="Alt Text" width="600"/>
+</div>
 <div align="center">
 <img src="static/sevv.png" alt="Alt Text" width="600"/>
 </div>
-<br>
 <div align="center">
 <img src="static/eig.png" alt="Alt Text" width="600"/>
 </div>
-<br>
 <div align="center">
-<img src="static/nin.png" alt="Alt Text" width="600"/>
+<img src="static/eig.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/nin.png.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/ten.png" alt="Alt Text" width="600"/>
+</div>
+<div align="center">
+<img src="static/last.png" alt="Alt Text" width="600"/>
 </div>
