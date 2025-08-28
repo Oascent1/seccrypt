@@ -8,15 +8,17 @@ from there, or here.</p>
 <p align="center">The whitepaper for Secure Crypt is also available.</p>
 
 <div align="center">
-<img src="static/tree.png" alt="Alt Text" width="600" border="2px solid red"/>
+<img src="static/tree.png" alt="Alt Text" width="600"/>
 </div>
 <br>
 <div align="center">
 <img src="static/sevv.png" alt="Alt Text" width="600"/>
 </div>
+<br>
 <div align="center">
 <img src="static/eig.png" alt="Alt Text" width="600"/>
 </div>
+<br>
 <div align="center">
 <img src="static/nin.png" alt="Alt Text" width="600"/>
 </div>
