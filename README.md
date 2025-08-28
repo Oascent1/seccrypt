@@ -7,7 +7,7 @@ information with military-grade cryptography, without requiring technical
 expertise.</p>
 
 <br>
-Once you launch your SecureCrypt.exe, SecureCrypt will start a WSGI server that runs completely in your computer. This server will immediately bring up http://127.0.0.1:5000/ which will bring you to an activation page.
+Once you launch your SecureCrypt.exe, SecureCrypt will start a WSGI server that runs completely in your computer. This server will immediately bring up http://127.0.0.1:5000/ on your browser.
 <div align="center">
 <img src="static/firs.png" alt="Alt Text" width="600"/>
 </div>
