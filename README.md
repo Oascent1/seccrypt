@@ -60,7 +60,7 @@ Next, we're going to click the 'Decrypt a File' button, as seen on the second pi
 
 And just like that, we have decrypted our file. Let's open it up to see if it worked.
 <div align="center">
-<img src="static/nin.png.png" alt="Alt Text" width="600"/>
+<img src="static/nin.png" alt="Alt Text" width="600"/>
 </div>
 <br>
 
