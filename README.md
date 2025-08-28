@@ -1,4 +1,4 @@
-# SecureCrypt.
+ <p align="center">SecureCrypt</p>
 
 <p align="center">
 SecureCrypt is a user-friendly, powerful desktop application designed for clientside file and folder encryption. Built with a commitment to privacy and
