@@ -1,6 +1,6 @@
 # SecureCrypt
 
-### No files leave your computer 
+<p align="center">Nothing leaves your computer</p>
 
 
 <p align="center">
