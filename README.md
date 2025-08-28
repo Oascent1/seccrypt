@@ -3,5 +3,4 @@
 This is my encryption tool that encrypts and decrypts files directly in your browser. 
 No files leave your computer.
 
-![](static/firs.png)
-
+<img src="static/firs.png" alt="Alt Text" width="400"/>
