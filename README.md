@@ -71,9 +71,9 @@ Our decrypted file.
 </div>
 <br>
 
-####### Windows Security Notice: Windows Defender may block you from opening the .exe because the publisher is not recognized. This is to protect your computer.
+###### Windows Security Notice: Windows Defender may block you from opening the .exe because the publisher is not recognized. This is to protect your computer.
 
-####### If Windows Defender blocks .exe:
+###### If Windows Defender blocks .exe:
 ###### Right-click on the file and select "Properties"
 ###### You will see an "Unblock" checkbox in the General tab, check it and click "Apply"
 ###### When you run the file, if Windows shows a warning, click "More info" then "Run anyway"
