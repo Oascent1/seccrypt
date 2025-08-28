@@ -10,6 +10,7 @@ from there, or here.</p>
 <div align="center">
 <img src="static/tree.png" alt="Alt Text" width="600"/>
 </div>
+<br>
 <div align="center">
 <img src="static/sevv.png" alt="Alt Text" width="600"/>
 </div>
