@@ -85,7 +85,5 @@ rmdir /s /q build
 
 echo Build complete! The executable 'SecureCryptPro.exe' is in the 'dist' folder.
 echo.
-echo Note: If Windows Defender flags the executable, you may need to:
-echo 1. Add an exclusion for the file/folder in Windows Security
-echo 2. Submit the file to Microsoft for analysis: https://www.microsoft.com/en-us/wdsi/filesubmission
+
 pause
