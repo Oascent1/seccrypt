@@ -1,13 +1,37 @@
-# SecureCrypt
+# SecureCrypt - File Encryption Desktop App
 
-<p align="center">Nothing leaves your computer</p>
+A secure, client-side file and folder encryption tool that never sends your data over the internet.
 
+## Features
 
-<p align="center">
-SecureCrypt is a user-friendly, powerful desktop application designed for clientside file and folder encryption. Built with a commitment to privacy and
-accessibility, it empowers everyday users to protect their sensitive digital
-information with military-grade cryptography, without requiring technical
-expertise.</p>
+- ✅ AES-256 encryption with HMAC verification
+- ✅ Encrypt files & folders up to 8GB
+- ✅ Folder encryption (zip-based)
+- ✅ Client-side processing - files never leave your computer
+- ✅ No installation required (portable executable)
+
+## Download
+
+[Download Latest Version]
+
+## Usage
+
+1. Download the executable
+2. Double-click to run (allow through Windows Defender if prompted)
+3. Use the web interface to encrypt/decrypt files
+4. Your files are processed locally and never uploaded
+
+## Building from Source
+
+[Include build instructions here]
+
+## Security
+
+This app uses:
+- AES-256-CBC encryption
+- PBKDF2 key derivation (100,000 iterations)
+- HMAC-SHA256 authentication
+- All processing happens locally on your machine
 
 <br>
 Once you launch your SecureCrypt.exe, SecureCrypt will start a WSGI server that runs completely in your computer. This server will immediately bring up http://127.0.0.1:5000/ on your browser.
