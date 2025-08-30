@@ -13,7 +13,7 @@ A secure, client-side file and folder encryption tool that never sends your data
 ## Download
 
 [Download Latest Version]
-(https://github.com/Oascent1/seccrypt/releases/tag/SecureCrypt.exe)
+(https://github.com/Oascent1/seccrypt/releases/tag/SecureCrypt)
 
 ## Usage
 
