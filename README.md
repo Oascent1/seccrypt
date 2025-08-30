@@ -12,14 +12,14 @@ A secure, client-side file and folder encryption tool that never sends your data
 
 ## Download
 
-[Download Latest Version]
+[[Download Latest Version]
+(https://github.com/Oascent1/seccrypt/releases/tag/SecureCrypt.exe)
 
 ## Usage
 
 1. Download the executable
-2. Double-click to run (allow through Windows Defender if prompted)
-3. Use the web interface to encrypt/decrypt files
-4. Your files are processed locally and never uploaded
+2. Use the web interface to encrypt/decrypt files
+3. Your files are processed locally and never uploaded
 
 ## Building from Source
 
