@@ -21,9 +21,6 @@ A secure, client-side file and folder encryption tool that never sends your data
 2. Use the web interface to encrypt/decrypt files
 3. Your files are processed locally and never uploaded
 
-## Building from Source
-
-[Include build instructions here]
 
 ## Security
 
