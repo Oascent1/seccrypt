@@ -73,3 +73,18 @@ Our decrypted file.
 <img src="static/ten.png" alt="Alt Text" width="600"/>
 </div>
 <br>
+
+Verifying File Integrity (Windows)
+
+Download the SecureCrypt_v2.0_Windows.zip file from the Releases page and extract it.
+
+Open PowerShell in the extracted folder.
+
+Run the command:
+Get-FileHash -Path .\SecureCryptPro.exe -Algorithm SHA256
+
+Open the SHA256SUMS.txt file provided and verify that the hash output by the command matches the hash in the file exactly.
+
+
+
+
